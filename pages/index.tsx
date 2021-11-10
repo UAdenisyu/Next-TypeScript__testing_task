@@ -5,11 +5,15 @@
 
 
 import Header from '../components/header/header';
+import DoTheTask from '../components/do-the-task/do-the-task';
 
 
 const MainPage = () => {
     return(
-        <Header text="Test task"></Header>
+        <>
+            <Header text="Test task"/>
+            <DoTheTask title1="Do The Task And Have Fun" title2="Be Persistent & Attentive To Details"/>
+        </>
     )
 }
 
